@@ -1,0 +1,17 @@
+.teste {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    animation: moveRight 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveRight {
+    from {
+        left: 0;
+    }
+    to {
+        left: calc(100% - 150px);
+    }
+}
